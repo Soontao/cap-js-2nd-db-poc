@@ -29,7 +29,13 @@
       "db": {
         "kind": "sqlite",
         "credentials": {
-          "database": ".dev.db"
+          "database": ".dev-main.db"
+        }
+      },
+      "db2": {
+        "kind": "sqlite",
+        "credentials": {
+          "database": ".dev-2nd.db"
         }
       }
     }
