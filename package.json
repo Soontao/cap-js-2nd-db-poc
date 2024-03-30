@@ -16,5 +16,22 @@
   "devDependencies": {
     "eslint": "^8.57.0",
     "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "@cap-js/sqlite": "^1.6.0",
+    "@sap/cds": "^7.8.0",
+    "@sap/cds-mtxs": "^1.17.0",
+    "better-sqlite3": "^9.4.3"
+  },
+  "cds": {
+    "requires": {
+      "multitenancy": true,
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "database": ".dev.db"
+        }
+      }
+    }
   }
 }

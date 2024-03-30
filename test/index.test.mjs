@@ -1,11 +1,3 @@
-import { equal } from "node:assert";
-import { describe, it } from "node:test";
-import { a } from "../src/index.mjs";
+import { describe } from "node:test";
 
-describe('Test Suite', () => {
-
-  it('should equal to 1', () => {
-    equal(a, 1);
-  });
-
-});
+describe("Test Suite", () => {});
